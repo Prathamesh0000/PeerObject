@@ -97,7 +97,7 @@ function PeerObject(groupId, userID) {
 
 	function connectToGroup(groupId, updates, err) {
 		let group = new PeerGroup(err, {
-			host: '10.0.0.50',
+			host: 'localhost',
 			port: 9000,
 			path: '/myapp'
 		});
